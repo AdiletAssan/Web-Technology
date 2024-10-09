@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="Lexus.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="time">
+        <div class="text">
+            <p>Car rental starting at <b><span style="color: black;">$13.99 per day!</span></b> Click on the button to find out your discount.</p>
+            <h4 id="current-time"></h4>
+            <input type="checkbox" id="toggle">
+        <label for="toggle" class="show-btn">Click</label>
+        <div class="wrapper">
+          <label for="toggle">
+            <span class="material-symbols-outlined" style="color: black;" id="cancel-icon">
+                close
+                </span>
+          </label>
+          <div class="icon-1"><span class="material-symbols-outlined" id="icon-1">
+            mail
+            </span></div>
+          <div class="content">
+            <header><span style="color: black;">Become a Subscriber</span></header>
+            <p><span style="color: black;">Subscribe to our blog and get the latest discount.</span></p>
+          </div>
+          <form action="index.php" method="POST">
+         
+            <div class="field">
+              <input type="text" class="email" name="email" placeholder="Email Address" required >
+            </div>
+            <div class="field btn">
+              <div class="layer"></div>
+              <button type="submit" name="subscribe">Subscribe</button>
+            </div>
+          </form>
+          <div class="text"><span style="color: black;">We do not share your information.</span></div>
+        </div>
+        </div>
+        
+    </div>
+    <header id="header-section">
+        <div class="container">
+            <div class="header">
+                <div class="header-logo">
+                    <img class="header-logo__img" src="logo.svg" alt="HKinvision logo">
+                </div>
+                <nav class="nav-main">
+                    <ul class="nav-main__list">
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">Home</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">Cars</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">Book now</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="#">Terms and Conditions</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="btn-primary header__btn" href="Lexus1.html">Log in</a>
+                <img src="moon.png" alt="" id="icon">
+            </div>
+        </div>
+    
+    </header>
+    <main>
+        <section id="banner-section">
+            <div class="container">
+                <div class="banner">
+                    <h2 class="banner__header">The World's Best Luxury Car Deals</h2>
+                    <p class="banner__text">HKinvestor can provide rentals of the most exclusive cars like Ferrari and Lamborghini.</p>
+                    <div class="banner-links-wrap">
+                        <a class="btn-primary banner__link">Buy Now</a>
+                        <button class="btn-secondary banner__btn">Video Introduction</button>
+                    </div>
+                    <div class="banner-features">
+                        <span class="banner-features__text"><strong class="banner-features__text_strong">500+</strong>Luxury Cars</span>
+                        <span class="banner-features__text"><strong class="banner-features__text_strong">#1</strong>Best Deal Car</span>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-img"></div>
+        </section>
+        <section id="rent-section">
+            <div class="container">
+                <h2 class="title-section">Rent a Luxury Car</h2>
+                <div class="rent-wrap">
+                    <div class="rent">
+                        <span class="rent__name">Supercars</span>
+                        <a class="rent__link" href="#">Discover</a>
+                    </div>
+                    <div class="rent">
+                        <span class="rent__name">Sportcars</span>
+                        <a class="rent__link" href="#">Discover</a>
+                    </div>
+                    <div class="rent">
+                        <span class="rent__name">SUV</span>
+                        <a class="rent__link" href="#">Discover</a>
+                    </div>
+                    <div class="rent">
+                        <span class="rent__name">Supersuv</span>
+                        <a class="rent__link" href="#">Discover</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services-section">
+            <div class="container">
+                <h2 class="title-section services-section__title">Our Other Services</h2>
+                <div class="services-wrap">
+                    <div class="services">
+                        <img class="services__img" src="services_1.jpg" alt="Private Charter service">
+                        <h3 class="services__title">Private Charter</h3>
+                        <p class="services__text">Pinjam Mobil Rent also offers you discreet and speedy, transfers via helicopter or private planes.</p>
+                    </div>
+                    <div class="services">
+                        <img class="services__img" src="services_2.jpg" alt="Chauffer Driven Car Rentals service">
+                        <h3 class="services__title">Chauffer Driven Car Rentals</h3>
+                        <p class="services__text">Our chauffers are professional drivers who provide a discreet, reliable punctual and professional service.</p>
+                    </div>
+                    <div class="services">
+                        <img class="services__img" src="services_3.jpg" alt="Wedding Car Rentals service">
+                        <h3 class="services__title">Wedding Car Rentals</h3>
+                        <p class="services__text">If you want to celebrate your wedding in style and elegance, choose one car from our luxury collection.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destination-section">
+            <div class="container">
+                <h2 class="title-section destination-section__title">Popular Destination for Car Rentals</h2>
+                <div class="destination-wrap">
+                    <div class="destination">
+                        <img class="destination__img" src="destination_1.jpg" alt="Destination to London">
+                        <div class="destination-info">
+                            <h3 class="destination__title">London</h3>
+                            <p class="destination__text">Car hire in 75 pick-up locations</p>
+                            <b class="destination__price">From $ 669,00 per day</b>
+                            <a class="destination__link" href="#">Search rental cars in London</a>
+                        </div>
+                    </div>
+                    <div class="destination">
+                        <img class="destination__img" src="destination_2.jpg" alt="Destination to Madrid">
+                        <div class="destination-info">
+                            <h3 class="destination__title">Madrid</h3>
+                            <p class="destination__text">Car hire in 75 pick-up locations</p>
+                            <b class="destination__price">From $ 799,00 per day</b>
+                            <a class="destination__link" href="#">Search rental cars in Madrid</a>
+                        </div>
+                    </div>
+                    <div class="destination">
+                        <img class="destination__img" src="destination_3.jpg" alt="Destination to Paris">
+                        <div class="destination-info">
+                            <h3 class="destination__title">Paris</h3>
+                            <p class="destination__text">Car hire in 75 pick-up locations</p>
+                            <b class="destination__price">From $ 899,00 per day</b>
+                            <a class="destination__link" href="#">Search rental cars in Paris</a>
+                        </div>
+                    </div>
+                    <div class="destination">
+                        <img class="destination__img" src="destination_4.jpg" alt="Destination to Dubai">
+                        <div class="destination-info">
+                            <h3 class="destination__title">Dubai</h3>
+                            <p class="destination__text">Car hire in 75 pick-up locations</p>
+                            <b class="destination__price">From $ 669,00 per day</b>
+                            <a class="destination__link" href="#">Search rental cars in Dubai</a>
+                        </div>
+                    </div>
+                    <div class="destination">
+                        <img class="destination__img" src="destination_5.jpg" alt="Destination to Roma">
+                        <div class="destination-info">
+                            <h3 class="destination__title">Roma</h3>
+                            <p class="destination__text">Car hire in 75 pick-up locations</p>
+                            <b class="destination__price">From $ 799,00 per day</b>
+                            <a class="destination__link" href="#">Search rental cars in Roma</a>
+                        </div>
+                    </div>
+                    <div class="destination">
+                        <img class="destination__img" src="destination_6.jpg" alt="Destination to Jakarta">
+                        <div class="destination-info">
+                            <h3 class="destination__title">Jakarta</h3>
+                            <p class="destination__text">Car hire in 75 pick-up locations</p>
+                            <b class="destination__price">From $ 899,00 per day</b>
+                            <a class="destination__link" href="#">Search rental cars in Jakarta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="location-section">
+            <div class="container">
+                <h2 class="title-section">Location</h2>
+                <img class="location-img" src="location_map.jpg" alt="HKinvision address">
+            </div>
+        </section>
+    </main>
+    <section>
+        <h1 class="title">FAQ's</h1>
+    
+        <div class="questions-container">
+            <div class="question">
+                <button>
+                    <span>What types of luxury cars are available on your platform?</span>
+                    <i class="fas fa-chevron-down d-arrow"></i>
+                </button>
+                <p>We offer a wide range of luxury cars, including high-end brands like Rolls-Royce, Bentley, Lamborghini, 
+                    Ferrari, Porsche, and more. You can find both new and certified pre-owned luxury vehicles.</p>
+            </div>
+    
+            <div class="question">
+                <button>
+                    <span>How do I search for a specific luxury car?</span>
+                    <i class="fas fa-chevron-down d-arrow"></i>
+                </button>
+                <p>You can use our advanced search feature on the homepage. Filter your search by brand, model, year, price range, and other specifications to find the perfect luxury car that suits your needs.</p>
+            </div>
+    
+            <div class="question">
+                <button>
+                    <span>Do you provide financing options for luxury car purchases?</span>
+                    <i class="fas fa-chevron-down d-arrow"></i>
+                </button>
+                <p>Yes, we offer financing options through our trusted partners. You can apply for financing directly 
+                    on our platform to see the best rates and terms available for your luxury vehicle.</p>
+            </div>
+    
+            <div class="question">
+                <button>
+                    <span>Are the luxury cars inspected before listing?</span>
+                    <i class="fas fa-chevron-down d-arrow"></i>
+                </button>
+                <p>Absolutely! All vehicles listed on our platform undergo a rigorous inspection process 
+                to ensure they meet our high-quality standards. We provide detailed reports on the vehicle's condition.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- external js-->
+    <script src="Lexus.js"></script>
+    <footer id="footer-section">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-about">
+                    <div class="footer-logo-wrap">
+                        <img class="footer-about__img" src="logo.svg" alt="HKinvision logo">
+                        <h3 class="footer-about__header"><span style="color: #fff;">HKinvision</span></h3>
+                    </div>
+                    <p class="footer-about__text">The World's Best Luxury Car’s Dealing Platform</p>
+                </div>
+                <div class="footer-nav-wrap">
+                    <div class="footer-nav">
+                        <h3 class="footer-nav__header">Company</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">About Us</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Product</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Testimonial</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h3 class="footer-nav__header">Support</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">FAQ</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Privacy Policy</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Terms of Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h3 class="footer-nav__header">Category</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Super Cars</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Sport Cars</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">More Cars</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a class="footer-social__link" href="#"></a>
+                    <a class="footer-social__link" href="#"></a>
+                    <a class="footer-social__link" href="#"></a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="footer-copyright">
+        <div class="container">
+            <p class="footer-copyright__text">©2024 HKInvestor. Adilet developer</p>
+        </div>
+    </div>
+    
+    
+    
+    
+</body>
+</html>
